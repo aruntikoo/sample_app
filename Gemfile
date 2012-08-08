@@ -9,7 +9,7 @@ gem 'rspec-core',  :git => 'git://github.com/rspec/rspec-core.git'
 gem 'rspec-expectations', :git => 'git://github.com/rspec/rspec-expectations.git'
 gem 'rspec-mocks',	:git => 'git://github.com/rspec/rspec-mocks.git'
 
-gem 'sqlite3', '1.3.5'
+# gem 'sqlite3', '1.3.5'
 
 
 # Gems used only for assets and not required
@@ -29,6 +29,7 @@ gem 'jquery-rails', '2.0.2'
 group :test, :development do
 	gem 'capybara', '1.1.2'
 	gem 'rspec-rails', "~> 2.0"
+	gem 'sqlite3', '1.3.5'
 end
 
 group :production do
