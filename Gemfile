@@ -9,7 +9,7 @@ gem 'rspec-core',  :git => 'git://github.com/rspec/rspec-core.git'
 gem 'rspec-expectations', :git => 'git://github.com/rspec/rspec-expectations.git'
 gem 'rspec-mocks',	:git => 'git://github.com/rspec/rspec-mocks.git'
 
-gem 'sqlite3', '1.3.6'
+gem 'sqlite3', '1.3.5'
 
 
 # Gems used only for assets and not required
